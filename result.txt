@@ -1,0 +1,26 @@
+=====START===== 
+When green flag is clicked:
+ Think: MESSAGE: Hmm... for: 2 SECS
+ Say: MESSAGE: Hello!
+ Repeat: 10 TIMES
+   Turn Right: 15 DEGREES
+ If: x less than: 30
+ then: 
+   Change X by: 10 DX
+ Wait Until: x greater than: 50
+ Repeat Until: y equals: 40
+   Go to X: 40 X
+   Go to Y: 40 Y
+When key is pressed: space
+ Wait for: DURATION: 2
+ Say: MESSAGE: Hello! for: 2 SECS
+ Think: MESSAGE: Hmm...
+ Change Y by: 50 DY
+ If: x equals: 50
+ then: 
+   Set: X to -100 
+ else:
+   Set: Y to 40
+ Forever: 
+   Move: 2 STEPS
+=====END===== 
